@@ -1,4 +1,7 @@
 {
   "presets": ["env", "react"],
-  "plugins": [["styled-jsx/babel", { "optimizeForSpeed": true }]]
+  "plugins": [
+    ["styled-jsx/babel", { "optimizeForSpeed": true }],
+    ["transform-class-properties", { "spec": true }]
+  ]
 }

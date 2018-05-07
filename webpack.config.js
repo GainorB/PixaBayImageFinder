@@ -59,7 +59,7 @@ module.exports = {
     new CleanWebpackPlugin(['build']), // deletes the build folder in between builds
     // points to the file where react is injected
     new HtmlWebpackPlugin({
-      title: 'My React App',
+      title: 'PixaBay Image Finder',
       hash: true,
       template: './src/index.html', // Load a custom template
     }),
